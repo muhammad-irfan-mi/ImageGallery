@@ -51,6 +51,7 @@ function ImageTake({ closeModal }) {
                         <input type="text" placeholder='Enter image Name' value={imageName} onChange={(e) => setImageName(e.target.value)} />
                         <textarea placeholder='Type Desc....' rows={4} value={imageDesc} onChange={(e) => setImageDesc(e.target.value)}></textarea>
                         <button type='submit'>Upload</button>
+                        <button type='submit'>delete</button>
                     </form>
                 </div>
             </div>
